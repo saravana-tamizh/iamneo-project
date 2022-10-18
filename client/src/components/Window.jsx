@@ -22,16 +22,16 @@ const Window = ({ show, person, onClose, item }) => {
       <div>
         <h2>Candidate name</h2>
         <div className="candidate-details">
-          <p>👨‍🏫{item.person}</p>
+          <p>👨‍🏫 {item.person}</p>
         </div>
         <h2>Role</h2>
         <div className="candidate-details">
-          <p>🔧{item.content}</p>
+          <p>🔧 {item.content}</p>
         </div>
         <h2>Status</h2>
         <div className="candidate-details">
           <p>
-            {item.icon}{" "}
+            {item.icon} {" "}
             {`${item.status.charAt(0).toUpperCase()}${item.status.slice(1)}`}
           </p>
         </div>
